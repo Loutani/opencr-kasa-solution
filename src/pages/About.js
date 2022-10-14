@@ -7,7 +7,7 @@ const About = () => {
     return (
         <>
             <Header imagePath={aboutHeaderPicture} />
-            <div className='container'>
+            <div className='container p-x-10'>
                 <Accordion isOpen={true} title='Fiabilité'>
                     <Text>
                         Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.
